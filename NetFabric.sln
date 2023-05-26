@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33711.374
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{6C58DD04-B706-4938-9076-F285899A9DFF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Icon.png = Icon.png
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFabric", "src\NetFabric\NetFabric.csproj", "{5DAB77B4-28CB-4529-B169-1F3640265AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFabric.Benchmarks", "src\NetFabric.Benchmarks\NetFabric.Benchmarks.csproj", "{0E88BAFD-3CD9-4B72-B471-D06D151A3AB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DAB77B4-28CB-4529-B169-1F3640265AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAB77B4-28CB-4529-B169-1F3640265AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAB77B4-28CB-4529-B169-1F3640265AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAB77B4-28CB-4529-B169-1F3640265AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E88BAFD-3CD9-4B72-B471-D06D151A3AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E88BAFD-3CD9-4B72-B471-D06D151A3AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E88BAFD-3CD9-4B72-B471-D06D151A3AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E88BAFD-3CD9-4B72-B471-D06D151A3AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD680083-4EF8-4288-B823-9EC9B0584997}
+	EndGlobalSection
+EndGlobal
