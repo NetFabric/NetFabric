@@ -2,19 +2,20 @@
 
   <PropertyGroup>
     <Title>NetFabric</Title>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net6.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Description></Description>
-    <Version>1.0.0-beta01</Version>
+    <Version>1.1.0</Version>
     <Copyright>Copyright © Antão Almada 2023</Copyright>
     <Authors>Antão Almada</Authors>
     <Company>NetFabric</Company>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>netfabric</PackageTags>
     <PackageReleaseNotes>
-      First release.
+      Add documentation.
     </PackageReleaseNotes>
     <RootNamespace>NetFabric</RootNamespace>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -42,6 +43,7 @@
   <ItemGroup>
     <None Include="..\..\Icon.png" Pack="true" PackagePath="" />
     <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+    <None Include=".\README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
   <ItemGroup>
