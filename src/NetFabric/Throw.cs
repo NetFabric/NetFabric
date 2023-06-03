@@ -23,6 +23,17 @@ public static class Throw
         => throw new ArgumentException(paramName: parameterName, message: message);
 
     /// <summary>
+    /// Throws <see cref="ArgumentException"/>.
+    /// </summary>
+    /// <typeparam name="T">The type returned by the method.</typeparam>
+    /// <param name="parameterName">The name of the parameter that caused the current exception.</param>
+    /// <param name="message">The error message that explains the reason for the exception.</param>
+    /// <exception cref="ArgumentException">Always thrown.</exception>
+    [DoesNotReturn]
+    public static T ArgumentException<T>(string parameterName, string? message = default)
+        => throw new ArgumentException(paramName: parameterName, message: message);
+
+    /// <summary>
     /// Throws <see cref="ArgumentNullException"/>.
     /// </summary>
     /// <param name="parameterName">The name of the parameter that caused the current exception.</param>
@@ -60,35 +71,38 @@ public static class Throw
     /// Throws <see cref="ArgumentOutOfRangeException"/>.
     /// </summary>
     /// <param name="parameterName">The name of the parameter that caused the current exception.</param>
+    /// <param name="actualValue">The value of the argument that causes this exception.</param>
     /// <param name="message">The error message that explains the reason for the exception.</param>
     /// <exception cref="ArgumentOutOfRangeException">Always thrown.</exception>
     [DoesNotReturn]
-    public static void ArgumentOutOfRangeException(string parameterName, string? message = default)
-        => throw new ArgumentOutOfRangeException(paramName: parameterName, message: message);
+    public static void ArgumentOutOfRangeException(string parameterName, object? actualValue, string? message = default)
+        => throw new ArgumentOutOfRangeException(paramName: parameterName, actualValue: actualValue, message: message);
 
     /// <summary>
     /// Throws <see cref="ArgumentOutOfRangeException"/>.
     /// </summary>
     /// <typeparam name="T">The type returned by the method.</typeparam>
     /// <param name="parameterName">The name of the parameter that caused the current exception.</param>
+    /// <param name="actualValue">The value of the argument that causes this exception.</param>
     /// <param name="message">The error message that explains the reason for the exception.</param>
     /// <returns>Does not return.</returns>
     /// <exception cref="ArgumentOutOfRangeException">Always thrown.</exception>
     [DoesNotReturn]
-    public static T ArgumentOutOfRangeException<T>(string parameterName, string? message = default)
-        => throw new ArgumentOutOfRangeException(paramName: parameterName, message: message);
+    public static T ArgumentOutOfRangeException<T>(string parameterName, object? actualValue, string? message = default)
+        => throw new ArgumentOutOfRangeException(paramName: parameterName, actualValue: actualValue, message: message);
 
     /// <summary>
     /// Throws <see cref="ArgumentOutOfRangeException"/>.
     /// </summary>
     /// <typeparam name="T">The type returned by the method.</typeparam>
     /// <param name="parameterName">The name of the parameter that caused the current exception.</param>
+    /// <param name="actualValue">The value of the argument that causes this exception.</param>
     /// <param name="message">The error message that explains the reason for the exception.</param>
     /// <returns>Does not return.</returns>
     /// <exception cref="ArgumentOutOfRangeException">Always thrown.</exception>
     [DoesNotReturn]
-    public static ref readonly T ArgumentOutOfRangeExceptionRef<T>(string parameterName, string? message = default)
-        => throw new ArgumentOutOfRangeException(paramName: parameterName, message: message);
+    public static ref readonly T ArgumentOutOfRangeExceptionRef<T>(string parameterName, object? actualValue, string? message = default)
+        => throw new ArgumentOutOfRangeException(paramName: parameterName, actualValue: actualValue, message: message);
 
     /// <summary>
     /// Throws <see cref="InvalidOperationException"/>.
