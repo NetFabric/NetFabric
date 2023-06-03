@@ -10,8 +10,12 @@ Methods that throw exceptions cannot be inlined by the JIT compiler. Only if thr
 Using the methods in this class allows exceptions to be thrown and still let the method be a candidate to be inlined.
 
 ```csharp
-// an example method that uses Throw
-public static bool AssertIsPositive<T>(T? value) where T : INumber<T>
-	=> value >= T.Zero ? value : Throw.ArgumentNullException<bool>(nameof(value));
+[MethodImpl(MethodImplOptions.AggressiveInlining)]
+public static ReadOnlyListWrapper<T> AsReadOnlyList<T>(T[] source)
+    => source switch
+    {
+        null => Throw.ArgumentNullException<ReadOnlyListWrapper<T>>(nameof(source)),
+        _ => new ReadOnlyListWrapper<T>(source)
+    };
 ```
 
