@@ -7,6 +7,8 @@ public class ReadOnlyCollectionTests
     public readonly record struct TestValueType(int Value);
 
     TestValueType[]? array;
+    IEnumerable<TestValueType>? arrayAsEnumerable;
+    ReadOnlyMemory<TestValueType>? memory;
     ReadOnlyCollection<TestValueType>? collection;
 
     [Params(0, 10, 1_000)]
@@ -19,6 +21,8 @@ public class ReadOnlyCollectionTests
             .Range(0, Count)
             .Select(value => new TestValueType(value))
             .ToArray();
+        arrayAsEnumerable = array;
+        memory = array;
         collection = new(array);
     }
 
@@ -31,7 +35,25 @@ public class ReadOnlyCollectionTests
         return sum;
     }
 
-    [Benchmark()]
+    [Benchmark]
+    public int ForEachArrayAsEnumerable()
+    {
+        var sum = 0;
+        foreach (var value in arrayAsEnumerable!)
+            sum += value.Value;
+        return sum;
+    }
+
+    [Benchmark]
+    public int ForEachMemory()
+    {
+        var sum = 0;
+        foreach (var value in memory!.Value.Span)
+            sum += value.Value;
+        return sum;
+    }
+
+    [Benchmark]
     public int ForReadOnlyCollection()
     {
         var source = collection;
@@ -41,7 +63,7 @@ public class ReadOnlyCollectionTests
         return sum;
     }
 
-    [Benchmark()]
+    [Benchmark]
     public int ForEachReadOnlyCollection()
     {
         var sum = 0;
@@ -50,8 +72,8 @@ public class ReadOnlyCollectionTests
         return sum;
     }
 
-    [Benchmark()]
-    public int ForEachEnumerable()
+    [Benchmark]
+    public int ForEachReadOnlyCollectionAsEnumerable()
     {
         var sum = 0;
         foreach (var value in (IEnumerable<TestValueType>)collection!)
