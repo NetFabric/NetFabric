@@ -55,9 +55,9 @@ public class ReadOnlyCollection<T>
         bool IEnumerator.MoveNext()
             => MoveNext();
 
-        void IEnumerator.Reset()
-            => throw new NotSupportedException();
+        public void Reset()
+            => index = -1;
 
-        void IDisposable.Dispose() { }
+        public void Dispose() { }
     }
 }
