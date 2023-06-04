@@ -1,7 +1,7 @@
 ﻿namespace NetFabric;
 
 public class ReadOnlyCollection<T>
-    : IReadOnlyCollection<T>
+    : IReadOnlyList<T>
 {
     readonly T[] array;
 
@@ -13,9 +13,6 @@ public class ReadOnlyCollection<T>
 
     public int Count
         => array.Length;
-
-    public ReadOnlyCollection<T> AsEnumerable()
-        => this;
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public Enumerator GetEnumerator()
@@ -45,7 +42,7 @@ public class ReadOnlyCollection<T>
         }
         T IEnumerator<T>.Current
             => Current;
-        object IEnumerator.Current
+        object? IEnumerator.Current
             => Current;
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
