@@ -108,58 +108,67 @@ public static class Throw
     /// Throws <see cref="InvalidOperationException"/>.
     /// </summary>
     /// <param name="message">The error message that explains the reason for the exception.</param>
+    /// <param name="innerException">The exception that is the cause of the current exception, or a null reference if no inner exception is specified.</param>
     /// <exception cref="InvalidOperationException">Always thrown.</exception>
     [DoesNotReturn]
-    public static void InvalidOperationException(string? message = default)
-        => throw new InvalidOperationException(message);
+    public static void InvalidOperationException(string? message = default, Exception? innerException = default)
+        => throw new InvalidOperationException(message: message, innerException: innerException);
 
     /// <summary>
     /// Throws <see cref="InvalidOperationException"/>.
     /// </summary>
     /// <typeparam name="T">The type returned by the method.</typeparam>
+    /// <param name="message">The error message that explains the reason for the exception.</param>
+    /// <param name="innerException">The exception that is the cause of the current exception, or a null reference if no inner exception is specified.</param>
     /// <returns>Does not return.</returns>
     /// <exception cref="InvalidOperationException">Always thrown.</exception>
     [DoesNotReturn]
-    public static T InvalidOperationException<T>()
-        => throw new InvalidOperationException();
+    public static T InvalidOperationException<T>(string? message = default, Exception? innerException = default)
+        => throw new InvalidOperationException(message: message, innerException: innerException);
 
     /// <summary>
     /// Throws <see cref="NotSupportedException"/>.
     /// </summary>
+    /// <param name="message">The error message that explains the reason for the exception.</param>
+    /// <param name="innerException">The exception that is the cause of the current exception, or a null reference if no inner exception is specified.</param>
     /// <exception cref="NotSupportedException">Always thrown.</exception>
     [DoesNotReturn]
-    public static void NotSupportedException()
-        => throw new NotSupportedException();
+    public static void NotSupportedException(string? message = default, Exception? innerException = default)
+        => throw new NotSupportedException(message: message, innerException: innerException);
 
     /// <summary>
     /// Throws <see cref="NotSupportedException"/>.
     /// </summary>
     /// <typeparam name="T">The type returned by the method.</typeparam>
+    /// <param name="message">The error message that explains the reason for the exception.</param>
+    /// <param name="innerException">The exception that is the cause of the current exception, or a null reference if no inner exception is specified.</param>
     /// <returns>Does not return.</returns>
     /// <exception cref="NotSupportedException">Always thrown.</exception>
     [DoesNotReturn]
-    public static T NotSupportedException<T>()
-        => throw new NotSupportedException();
+    public static T NotSupportedException<T>(string? message = default, Exception? innerException = default)
+        => throw new NotSupportedException(message: message, innerException: innerException);
 
     /// <summary>
     /// Throws <see cref="ObjectDisposedException"/>.
     /// </summary>
     /// <param name="objectName">The name of the object that caused this exception.</param>
+    /// <param name="message">The error message that explains the reason for the exception.</param>
     /// <exception cref="ObjectDisposedException">Always thrown.</exception>
     [DoesNotReturn]
-    public static void ObjectDisposedException(string objectName)
-        => throw new ObjectDisposedException(objectName);
+    public static void ObjectDisposedException(string objectName, string? message = default)
+        => throw new ObjectDisposedException(objectName: objectName, message: message);
 
     /// <summary>
     /// Throws <see cref="ObjectDisposedException"/>.
     /// </summary>
     /// <typeparam name="T">The type returned by the method.</typeparam>
     /// <param name="objectName">The name of the object that caused this exception.</param>
+    /// <param name="message">The error message that explains the reason for the exception.</param>
     /// <returns>Does not return.</returns>
     /// <exception cref="ObjectDisposedException">Always thrown.</exception>
     [DoesNotReturn]
-    public static T ObjectDisposedException<T>(string objectName)
-        => throw new ObjectDisposedException(objectName);
+    public static T ObjectDisposedException<T>(string objectName, string? message = default)
+        => throw new ObjectDisposedException(objectName: objectName, message: message);
 
     /// <summary>
     /// Throws <see cref="Exception"/>.
@@ -168,7 +177,7 @@ public static class Throw
     /// <param name="innerException">The exception that is the cause of the current exception, or a null reference if no inner exception is specified.</param>
     /// <exception cref="Exception">Always thrown.</exception>
     [DoesNotReturn]
-    public static void Exception(string? message, Exception? innerException)
+    public static void Exception(string? message = default, Exception? innerException = default)
         => throw new Exception(message, innerException);
 
     /// <summary>
@@ -180,6 +189,6 @@ public static class Throw
     /// <returns>Does not return.</returns>
     /// <exception cref="Exception">Always thrown.</exception>
     [DoesNotReturn]
-    public static T Exception<T>(string? message, Exception? innerException)
+    public static T Exception<T>(string? message = default, Exception? innerException = default)
         => throw new Exception(message, innerException);
 }
