@@ -24,8 +24,11 @@ public static ReadOnlyListWrapper<T> AsReadOnlyList<T>(T[] source)
 The following open-source projects are used to build and test this project:
 
 - [.NET](https://github.com/dotnet)
+- [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet)
+- [coverlet](https://github.com/coverlet-coverage/coverlet)
 - [NetFabric.Assertive](https://github.com/NetFabric/NetFabric.Assertive)
 - [NetFabric.Hyperlinq.Analyzer](https://github.com/NetFabric/NetFabric.Hyperlinq.Analyzer)
+- [xUnit](https://github.com/xunit/xunit)
 
 ## License
 

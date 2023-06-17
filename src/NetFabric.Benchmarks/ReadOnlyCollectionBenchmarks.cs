@@ -2,7 +2,7 @@
 
 namespace NetFabric.Benchmarks;
 
-public class ReadOnlyCollectionTests
+public class ReadOnlyCollectionBenchmarks
 {
     public readonly record struct TestValueType(int Value);
 
