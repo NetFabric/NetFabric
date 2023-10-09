@@ -27,10 +27,12 @@ public static class EnumerableExtensions
         {
             span = Unsafe.As<TSource[]>(source);
         }
+#if NET5_0_OR_GREATER
         else if (source.GetType() == typeof(List<TSource>))
         {
             span = CollectionsMarshal.AsSpan(Unsafe.As<List<TSource>>(source));
         }
+#endif
         else
         {
             span = default;
