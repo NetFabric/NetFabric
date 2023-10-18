@@ -5,7 +5,7 @@ namespace NetFabric;
 /// <summary>
 /// Provides a set of extension methods for working with types implementing <see cref="System.Collections.Generic.IEnumerable{T}"/>.
 /// </summary>
-public static class EnumerableExtensions
+public static class Enumerable
 {
     /// <summary>
     /// Tries to retrieve a <see cref="ReadOnlySpan{TSource}"/> representation of the elements in the specified <see cref="System.Collections.Generic.IEnumerable{TSource}"/>.
@@ -21,24 +21,22 @@ public static class EnumerableExtensions
     /// </remarks>
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static bool TryGetSpan<TSource>(this IEnumerable<TSource> source, out ReadOnlySpan<TSource> span)
-        where TSource : struct
     {
         if (source.GetType() == typeof(TSource[]))
         {
             span = Unsafe.As<TSource[]>(source);
-        }
-#if NET5_0_OR_GREATER
-        else if (source.GetType() == typeof(List<TSource>))
-        {
-            span = CollectionsMarshal.AsSpan(Unsafe.As<List<TSource>>(source));
-        }
-#endif
-        else
-        {
-            span = default;
-            return false;
+            return true;
         }
 
-        return true;
+#if NET5_0_OR_GREATER
+        if (source.GetType() == typeof(List<TSource>))
+        {
+            span = CollectionsMarshal.AsSpan(Unsafe.As<List<TSource>>(source));
+            return true;
+        }
+#endif
+
+        span = default;
+        return false;
     }
 }
