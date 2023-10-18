@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Description></Description>
-    <Version>1.4.0</Version>
+    <Version>1.4.1</Version>
     <Copyright>Copyright © Antão Almada 2023</Copyright>
     <Authors>Antão Almada</Authors>
     <Company>NetFabric</Company>
@@ -16,7 +16,7 @@
     <PackageTags>netfabric</PackageTags>
     <PackageProjectUrl>https://netfabric.github.io/NetFabric/</PackageProjectUrl>
     <PackageReleaseNotes>
-      Remove struct constraints from TryGetSpan.
+      Restore EnumerableExtension name.
     </PackageReleaseNotes>
     <RootNamespace>NetFabric</RootNamespace>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>

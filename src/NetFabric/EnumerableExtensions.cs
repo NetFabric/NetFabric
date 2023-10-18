@@ -5,7 +5,7 @@ namespace NetFabric;
 /// <summary>
 /// Provides a set of extension methods for working with types implementing <see cref="System.Collections.Generic.IEnumerable{T}"/>.
 /// </summary>
-public static class Enumerable
+public static class EnumerableExtensions
 {
     /// <summary>
     /// Tries to retrieve a <see cref="ReadOnlySpan{TSource}"/> representation of the elements in the specified <see cref="System.Collections.Generic.IEnumerable{TSource}"/>.
