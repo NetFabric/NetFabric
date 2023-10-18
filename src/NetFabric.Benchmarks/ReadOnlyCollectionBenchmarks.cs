@@ -17,7 +17,7 @@ public class ReadOnlyCollectionBenchmarks
     [GlobalSetup]
     public void GlobalSetup()
     {
-        array = Enumerable
+        array = System.Linq.Enumerable
             .Range(0, Count)
             .Select(value => new TestValueType(value))
             .ToArray();

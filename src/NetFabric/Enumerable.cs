@@ -28,13 +28,11 @@ public static class Enumerable
             return true;
         }
 
-#if NET5_0_OR_GREATER
         if (source.GetType() == typeof(List<TSource>))
         {
             span = CollectionsMarshal.AsSpan(Unsafe.As<List<TSource>>(source));
             return true;
         }
-#endif
 
         span = default;
         return false;
