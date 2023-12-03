@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetFabric", "src\NetFabric\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetFabric.Benchmarks", "src\NetFabric.Benchmarks\NetFabric.Benchmarks.csproj", "{0E88BAFD-3CD9-4B72-B471-D06D151A3AB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFabric.UnitTests", "NetFabric.UnitTests\NetFabric.UnitTests.csproj", "{E4721F17-24BB-479A-87AD-D147CEFEDAC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFabric.UnitTests", "src\NetFabric.UnitTests\NetFabric.UnitTests.csproj", "{E4721F17-24BB-479A-87AD-D147CEFEDAC9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{1AD7E2E8-6013-40E3-9366-A02584E5EFE4}"
 	ProjectSection(SolutionItems) = preProject
