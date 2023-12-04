@@ -1,0 +1,380 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: NetFabric
+  name: NetFabric
+  href: api/NetFabric.html
+  commentId: N:NetFabric
+  fullName: NetFabric
+  nameWithType: NetFabric
+- uid: NetFabric.ReadOnlyCollection`1
+  name: ReadOnlyCollection<T>
+  href: api/NetFabric.ReadOnlyCollection-1.html
+  commentId: T:NetFabric.ReadOnlyCollection`1
+  name.vb: ReadOnlyCollection(Of T)
+  fullName: NetFabric.ReadOnlyCollection<T>
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T)
+  nameWithType: ReadOnlyCollection<T>
+  nameWithType.vb: ReadOnlyCollection(Of T)
+- uid: NetFabric.ReadOnlyCollection`1.#ctor(`0[])
+  name: ReadOnlyCollection(T[])
+  href: api/NetFabric.ReadOnlyCollection-1.html#NetFabric_ReadOnlyCollection_1__ctor__0___
+  commentId: M:NetFabric.ReadOnlyCollection`1.#ctor(`0[])
+  name.vb: New(T())
+  fullName: NetFabric.ReadOnlyCollection<T>.ReadOnlyCollection(T[])
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).New(T())
+  nameWithType: ReadOnlyCollection<T>.ReadOnlyCollection(T[])
+  nameWithType.vb: ReadOnlyCollection(Of T).New(T())
+- uid: NetFabric.ReadOnlyCollection`1.#ctor*
+  name: ReadOnlyCollection
+  href: api/NetFabric.ReadOnlyCollection-1.html#NetFabric_ReadOnlyCollection_1__ctor_
+  commentId: Overload:NetFabric.ReadOnlyCollection`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NetFabric.ReadOnlyCollection<T>.ReadOnlyCollection
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).New
+  nameWithType: ReadOnlyCollection<T>.ReadOnlyCollection
+  nameWithType.vb: ReadOnlyCollection(Of T).New
+- uid: NetFabric.ReadOnlyCollection`1.Count
+  name: Count
+  href: api/NetFabric.ReadOnlyCollection-1.html#NetFabric_ReadOnlyCollection_1_Count
+  commentId: P:NetFabric.ReadOnlyCollection`1.Count
+  fullName: NetFabric.ReadOnlyCollection<T>.Count
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Count
+  nameWithType: ReadOnlyCollection<T>.Count
+  nameWithType.vb: ReadOnlyCollection(Of T).Count
+- uid: NetFabric.ReadOnlyCollection`1.Count*
+  name: Count
+  href: api/NetFabric.ReadOnlyCollection-1.html#NetFabric_ReadOnlyCollection_1_Count_
+  commentId: Overload:NetFabric.ReadOnlyCollection`1.Count
+  isSpec: "True"
+  fullName: NetFabric.ReadOnlyCollection<T>.Count
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Count
+  nameWithType: ReadOnlyCollection<T>.Count
+  nameWithType.vb: ReadOnlyCollection(Of T).Count
+- uid: NetFabric.ReadOnlyCollection`1.Enumerator
+  name: ReadOnlyCollection<T>.Enumerator
+  href: api/NetFabric.ReadOnlyCollection-1.Enumerator.html
+  commentId: T:NetFabric.ReadOnlyCollection`1.Enumerator
+  name.vb: ReadOnlyCollection(Of T).Enumerator
+  fullName: NetFabric.ReadOnlyCollection<T>.Enumerator
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Enumerator
+  nameWithType: ReadOnlyCollection<T>.Enumerator
+  nameWithType.vb: ReadOnlyCollection(Of T).Enumerator
+- uid: NetFabric.ReadOnlyCollection`1.Enumerator.Current
+  name: Current
+  href: api/NetFabric.ReadOnlyCollection-1.Enumerator.html#NetFabric_ReadOnlyCollection_1_Enumerator_Current
+  commentId: P:NetFabric.ReadOnlyCollection`1.Enumerator.Current
+  fullName: NetFabric.ReadOnlyCollection<T>.Enumerator.Current
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Enumerator.Current
+  nameWithType: ReadOnlyCollection<T>.Enumerator.Current
+  nameWithType.vb: ReadOnlyCollection(Of T).Enumerator.Current
+- uid: NetFabric.ReadOnlyCollection`1.Enumerator.Current*
+  name: Current
+  href: api/NetFabric.ReadOnlyCollection-1.Enumerator.html#NetFabric_ReadOnlyCollection_1_Enumerator_Current_
+  commentId: Overload:NetFabric.ReadOnlyCollection`1.Enumerator.Current
+  isSpec: "True"
+  fullName: NetFabric.ReadOnlyCollection<T>.Enumerator.Current
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Enumerator.Current
+  nameWithType: ReadOnlyCollection<T>.Enumerator.Current
+  nameWithType.vb: ReadOnlyCollection(Of T).Enumerator.Current
+- uid: NetFabric.ReadOnlyCollection`1.Enumerator.Dispose
+  name: Dispose()
+  href: api/NetFabric.ReadOnlyCollection-1.Enumerator.html#NetFabric_ReadOnlyCollection_1_Enumerator_Dispose
+  commentId: M:NetFabric.ReadOnlyCollection`1.Enumerator.Dispose
+  fullName: NetFabric.ReadOnlyCollection<T>.Enumerator.Dispose()
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Enumerator.Dispose()
+  nameWithType: ReadOnlyCollection<T>.Enumerator.Dispose()
+  nameWithType.vb: ReadOnlyCollection(Of T).Enumerator.Dispose()
+- uid: NetFabric.ReadOnlyCollection`1.Enumerator.Dispose*
+  name: Dispose
+  href: api/NetFabric.ReadOnlyCollection-1.Enumerator.html#NetFabric_ReadOnlyCollection_1_Enumerator_Dispose_
+  commentId: Overload:NetFabric.ReadOnlyCollection`1.Enumerator.Dispose
+  isSpec: "True"
+  fullName: NetFabric.ReadOnlyCollection<T>.Enumerator.Dispose
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Enumerator.Dispose
+  nameWithType: ReadOnlyCollection<T>.Enumerator.Dispose
+  nameWithType.vb: ReadOnlyCollection(Of T).Enumerator.Dispose
+- uid: NetFabric.ReadOnlyCollection`1.Enumerator.MoveNext
+  name: MoveNext()
+  href: api/NetFabric.ReadOnlyCollection-1.Enumerator.html#NetFabric_ReadOnlyCollection_1_Enumerator_MoveNext
+  commentId: M:NetFabric.ReadOnlyCollection`1.Enumerator.MoveNext
+  fullName: NetFabric.ReadOnlyCollection<T>.Enumerator.MoveNext()
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Enumerator.MoveNext()
+  nameWithType: ReadOnlyCollection<T>.Enumerator.MoveNext()
+  nameWithType.vb: ReadOnlyCollection(Of T).Enumerator.MoveNext()
+- uid: NetFabric.ReadOnlyCollection`1.Enumerator.MoveNext*
+  name: MoveNext
+  href: api/NetFabric.ReadOnlyCollection-1.Enumerator.html#NetFabric_ReadOnlyCollection_1_Enumerator_MoveNext_
+  commentId: Overload:NetFabric.ReadOnlyCollection`1.Enumerator.MoveNext
+  isSpec: "True"
+  fullName: NetFabric.ReadOnlyCollection<T>.Enumerator.MoveNext
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Enumerator.MoveNext
+  nameWithType: ReadOnlyCollection<T>.Enumerator.MoveNext
+  nameWithType.vb: ReadOnlyCollection(Of T).Enumerator.MoveNext
+- uid: NetFabric.ReadOnlyCollection`1.Enumerator.Reset
+  name: Reset()
+  href: api/NetFabric.ReadOnlyCollection-1.Enumerator.html#NetFabric_ReadOnlyCollection_1_Enumerator_Reset
+  commentId: M:NetFabric.ReadOnlyCollection`1.Enumerator.Reset
+  fullName: NetFabric.ReadOnlyCollection<T>.Enumerator.Reset()
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Enumerator.Reset()
+  nameWithType: ReadOnlyCollection<T>.Enumerator.Reset()
+  nameWithType.vb: ReadOnlyCollection(Of T).Enumerator.Reset()
+- uid: NetFabric.ReadOnlyCollection`1.Enumerator.Reset*
+  name: Reset
+  href: api/NetFabric.ReadOnlyCollection-1.Enumerator.html#NetFabric_ReadOnlyCollection_1_Enumerator_Reset_
+  commentId: Overload:NetFabric.ReadOnlyCollection`1.Enumerator.Reset
+  isSpec: "True"
+  fullName: NetFabric.ReadOnlyCollection<T>.Enumerator.Reset
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).Enumerator.Reset
+  nameWithType: ReadOnlyCollection<T>.Enumerator.Reset
+  nameWithType.vb: ReadOnlyCollection(Of T).Enumerator.Reset
+- uid: NetFabric.ReadOnlyCollection`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/NetFabric.ReadOnlyCollection-1.html#NetFabric_ReadOnlyCollection_1_GetEnumerator
+  commentId: M:NetFabric.ReadOnlyCollection`1.GetEnumerator
+  fullName: NetFabric.ReadOnlyCollection<T>.GetEnumerator()
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).GetEnumerator()
+  nameWithType: ReadOnlyCollection<T>.GetEnumerator()
+  nameWithType.vb: ReadOnlyCollection(Of T).GetEnumerator()
+- uid: NetFabric.ReadOnlyCollection`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/NetFabric.ReadOnlyCollection-1.html#NetFabric_ReadOnlyCollection_1_GetEnumerator_
+  commentId: Overload:NetFabric.ReadOnlyCollection`1.GetEnumerator
+  isSpec: "True"
+  fullName: NetFabric.ReadOnlyCollection<T>.GetEnumerator
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).GetEnumerator
+  nameWithType: ReadOnlyCollection<T>.GetEnumerator
+  nameWithType.vb: ReadOnlyCollection(Of T).GetEnumerator
+- uid: NetFabric.ReadOnlyCollection`1.Item(System.Int32)
+  name: this[int]
+  href: api/NetFabric.ReadOnlyCollection-1.html#NetFabric_ReadOnlyCollection_1_Item_System_Int32_
+  commentId: P:NetFabric.ReadOnlyCollection`1.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: NetFabric.ReadOnlyCollection<T>.this[int]
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).this[](Integer)
+  nameWithType: ReadOnlyCollection<T>.this[int]
+  nameWithType.vb: ReadOnlyCollection(Of T).this[](Integer)
+- uid: NetFabric.ReadOnlyCollection`1.Item*
+  name: this
+  href: api/NetFabric.ReadOnlyCollection-1.html#NetFabric_ReadOnlyCollection_1_Item_
+  commentId: Overload:NetFabric.ReadOnlyCollection`1.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: NetFabric.ReadOnlyCollection<T>.this
+  fullName.vb: NetFabric.ReadOnlyCollection(Of T).this[]
+  nameWithType: ReadOnlyCollection<T>.this
+  nameWithType.vb: ReadOnlyCollection(Of T).this[]
+- uid: NetFabric.Throw
+  name: Throw
+  href: api/NetFabric.Throw.html
+  commentId: T:NetFabric.Throw
+  fullName: NetFabric.Throw
+  nameWithType: Throw
+- uid: NetFabric.Throw.ArgumentException(System.String,System.String)
+  name: ArgumentException(string, string?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentException_System_String_System_String_
+  commentId: M:NetFabric.Throw.ArgumentException(System.String,System.String)
+  name.vb: ArgumentException(String, String)
+  fullName: NetFabric.Throw.ArgumentException(string, string?)
+  fullName.vb: NetFabric.Throw.ArgumentException(String, String)
+  nameWithType: Throw.ArgumentException(string, string?)
+  nameWithType.vb: Throw.ArgumentException(String, String)
+- uid: NetFabric.Throw.ArgumentException*
+  name: ArgumentException
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentException_
+  commentId: Overload:NetFabric.Throw.ArgumentException
+  isSpec: "True"
+  fullName: NetFabric.Throw.ArgumentException
+  nameWithType: Throw.ArgumentException
+- uid: NetFabric.Throw.ArgumentException``1(System.String,System.String)
+  name: ArgumentException<T>(string, string?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentException__1_System_String_System_String_
+  commentId: M:NetFabric.Throw.ArgumentException``1(System.String,System.String)
+  name.vb: ArgumentException(Of T)(String, String)
+  fullName: NetFabric.Throw.ArgumentException<T>(string, string?)
+  fullName.vb: NetFabric.Throw.ArgumentException(Of T)(String, String)
+  nameWithType: Throw.ArgumentException<T>(string, string?)
+  nameWithType.vb: Throw.ArgumentException(Of T)(String, String)
+- uid: NetFabric.Throw.ArgumentNullException(System.String,System.String)
+  name: ArgumentNullException(string, string?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentNullException_System_String_System_String_
+  commentId: M:NetFabric.Throw.ArgumentNullException(System.String,System.String)
+  name.vb: ArgumentNullException(String, String)
+  fullName: NetFabric.Throw.ArgumentNullException(string, string?)
+  fullName.vb: NetFabric.Throw.ArgumentNullException(String, String)
+  nameWithType: Throw.ArgumentNullException(string, string?)
+  nameWithType.vb: Throw.ArgumentNullException(String, String)
+- uid: NetFabric.Throw.ArgumentNullException*
+  name: ArgumentNullException
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentNullException_
+  commentId: Overload:NetFabric.Throw.ArgumentNullException
+  isSpec: "True"
+  fullName: NetFabric.Throw.ArgumentNullException
+  nameWithType: Throw.ArgumentNullException
+- uid: NetFabric.Throw.ArgumentNullExceptionRef*
+  name: ArgumentNullExceptionRef
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentNullExceptionRef_
+  commentId: Overload:NetFabric.Throw.ArgumentNullExceptionRef
+  isSpec: "True"
+  fullName: NetFabric.Throw.ArgumentNullExceptionRef
+  nameWithType: Throw.ArgumentNullExceptionRef
+- uid: NetFabric.Throw.ArgumentNullExceptionRef``1(System.String,System.String)
+  name: ArgumentNullExceptionRef<T>(string, string?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentNullExceptionRef__1_System_String_System_String_
+  commentId: M:NetFabric.Throw.ArgumentNullExceptionRef``1(System.String,System.String)
+  name.vb: ArgumentNullExceptionRef(Of T)(String, String)
+  fullName: NetFabric.Throw.ArgumentNullExceptionRef<T>(string, string?)
+  fullName.vb: NetFabric.Throw.ArgumentNullExceptionRef(Of T)(String, String)
+  nameWithType: Throw.ArgumentNullExceptionRef<T>(string, string?)
+  nameWithType.vb: Throw.ArgumentNullExceptionRef(Of T)(String, String)
+- uid: NetFabric.Throw.ArgumentNullException``1(System.String,System.String)
+  name: ArgumentNullException<T>(string, string?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentNullException__1_System_String_System_String_
+  commentId: M:NetFabric.Throw.ArgumentNullException``1(System.String,System.String)
+  name.vb: ArgumentNullException(Of T)(String, String)
+  fullName: NetFabric.Throw.ArgumentNullException<T>(string, string?)
+  fullName.vb: NetFabric.Throw.ArgumentNullException(Of T)(String, String)
+  nameWithType: Throw.ArgumentNullException<T>(string, string?)
+  nameWithType.vb: Throw.ArgumentNullException(Of T)(String, String)
+- uid: NetFabric.Throw.ArgumentOutOfRangeException(System.String,System.Object,System.String)
+  name: ArgumentOutOfRangeException(string, object?, string?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentOutOfRangeException_System_String_System_Object_System_String_
+  commentId: M:NetFabric.Throw.ArgumentOutOfRangeException(System.String,System.Object,System.String)
+  name.vb: ArgumentOutOfRangeException(String, Object, String)
+  fullName: NetFabric.Throw.ArgumentOutOfRangeException(string, object?, string?)
+  fullName.vb: NetFabric.Throw.ArgumentOutOfRangeException(String, Object, String)
+  nameWithType: Throw.ArgumentOutOfRangeException(string, object?, string?)
+  nameWithType.vb: Throw.ArgumentOutOfRangeException(String, Object, String)
+- uid: NetFabric.Throw.ArgumentOutOfRangeException*
+  name: ArgumentOutOfRangeException
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentOutOfRangeException_
+  commentId: Overload:NetFabric.Throw.ArgumentOutOfRangeException
+  isSpec: "True"
+  fullName: NetFabric.Throw.ArgumentOutOfRangeException
+  nameWithType: Throw.ArgumentOutOfRangeException
+- uid: NetFabric.Throw.ArgumentOutOfRangeExceptionRef*
+  name: ArgumentOutOfRangeExceptionRef
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentOutOfRangeExceptionRef_
+  commentId: Overload:NetFabric.Throw.ArgumentOutOfRangeExceptionRef
+  isSpec: "True"
+  fullName: NetFabric.Throw.ArgumentOutOfRangeExceptionRef
+  nameWithType: Throw.ArgumentOutOfRangeExceptionRef
+- uid: NetFabric.Throw.ArgumentOutOfRangeExceptionRef``1(System.String,System.Object,System.String)
+  name: ArgumentOutOfRangeExceptionRef<T>(string, object?, string?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentOutOfRangeExceptionRef__1_System_String_System_Object_System_String_
+  commentId: M:NetFabric.Throw.ArgumentOutOfRangeExceptionRef``1(System.String,System.Object,System.String)
+  name.vb: ArgumentOutOfRangeExceptionRef(Of T)(String, Object, String)
+  fullName: NetFabric.Throw.ArgumentOutOfRangeExceptionRef<T>(string, object?, string?)
+  fullName.vb: NetFabric.Throw.ArgumentOutOfRangeExceptionRef(Of T)(String, Object, String)
+  nameWithType: Throw.ArgumentOutOfRangeExceptionRef<T>(string, object?, string?)
+  nameWithType.vb: Throw.ArgumentOutOfRangeExceptionRef(Of T)(String, Object, String)
+- uid: NetFabric.Throw.ArgumentOutOfRangeException``1(System.String,System.Object,System.String)
+  name: ArgumentOutOfRangeException<T>(string, object?, string?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ArgumentOutOfRangeException__1_System_String_System_Object_System_String_
+  commentId: M:NetFabric.Throw.ArgumentOutOfRangeException``1(System.String,System.Object,System.String)
+  name.vb: ArgumentOutOfRangeException(Of T)(String, Object, String)
+  fullName: NetFabric.Throw.ArgumentOutOfRangeException<T>(string, object?, string?)
+  fullName.vb: NetFabric.Throw.ArgumentOutOfRangeException(Of T)(String, Object, String)
+  nameWithType: Throw.ArgumentOutOfRangeException<T>(string, object?, string?)
+  nameWithType.vb: Throw.ArgumentOutOfRangeException(Of T)(String, Object, String)
+- uid: NetFabric.Throw.Exception(System.String,System.Exception)
+  name: Exception(string?, Exception?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_Exception_System_String_System_Exception_
+  commentId: M:NetFabric.Throw.Exception(System.String,System.Exception)
+  name.vb: Exception(String, Exception)
+  fullName: NetFabric.Throw.Exception(string?, System.Exception?)
+  fullName.vb: NetFabric.Throw.Exception(String, System.Exception)
+  nameWithType: Throw.Exception(string?, Exception?)
+  nameWithType.vb: Throw.Exception(String, Exception)
+- uid: NetFabric.Throw.Exception*
+  name: Exception
+  href: api/NetFabric.Throw.html#NetFabric_Throw_Exception_
+  commentId: Overload:NetFabric.Throw.Exception
+  isSpec: "True"
+  fullName: NetFabric.Throw.Exception
+  nameWithType: Throw.Exception
+- uid: NetFabric.Throw.Exception``1(System.String,System.Exception)
+  name: Exception<T>(string?, Exception?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_Exception__1_System_String_System_Exception_
+  commentId: M:NetFabric.Throw.Exception``1(System.String,System.Exception)
+  name.vb: Exception(Of T)(String, Exception)
+  fullName: NetFabric.Throw.Exception<T>(string?, System.Exception?)
+  fullName.vb: NetFabric.Throw.Exception(Of T)(String, System.Exception)
+  nameWithType: Throw.Exception<T>(string?, Exception?)
+  nameWithType.vb: Throw.Exception(Of T)(String, Exception)
+- uid: NetFabric.Throw.InvalidOperationException(System.String,System.Exception)
+  name: InvalidOperationException(string?, Exception?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_InvalidOperationException_System_String_System_Exception_
+  commentId: M:NetFabric.Throw.InvalidOperationException(System.String,System.Exception)
+  name.vb: InvalidOperationException(String, Exception)
+  fullName: NetFabric.Throw.InvalidOperationException(string?, System.Exception?)
+  fullName.vb: NetFabric.Throw.InvalidOperationException(String, System.Exception)
+  nameWithType: Throw.InvalidOperationException(string?, Exception?)
+  nameWithType.vb: Throw.InvalidOperationException(String, Exception)
+- uid: NetFabric.Throw.InvalidOperationException*
+  name: InvalidOperationException
+  href: api/NetFabric.Throw.html#NetFabric_Throw_InvalidOperationException_
+  commentId: Overload:NetFabric.Throw.InvalidOperationException
+  isSpec: "True"
+  fullName: NetFabric.Throw.InvalidOperationException
+  nameWithType: Throw.InvalidOperationException
+- uid: NetFabric.Throw.InvalidOperationException``1(System.String,System.Exception)
+  name: InvalidOperationException<T>(string?, Exception?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_InvalidOperationException__1_System_String_System_Exception_
+  commentId: M:NetFabric.Throw.InvalidOperationException``1(System.String,System.Exception)
+  name.vb: InvalidOperationException(Of T)(String, Exception)
+  fullName: NetFabric.Throw.InvalidOperationException<T>(string?, System.Exception?)
+  fullName.vb: NetFabric.Throw.InvalidOperationException(Of T)(String, System.Exception)
+  nameWithType: Throw.InvalidOperationException<T>(string?, Exception?)
+  nameWithType.vb: Throw.InvalidOperationException(Of T)(String, Exception)
+- uid: NetFabric.Throw.NotSupportedException(System.String,System.Exception)
+  name: NotSupportedException(string?, Exception?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_NotSupportedException_System_String_System_Exception_
+  commentId: M:NetFabric.Throw.NotSupportedException(System.String,System.Exception)
+  name.vb: NotSupportedException(String, Exception)
+  fullName: NetFabric.Throw.NotSupportedException(string?, System.Exception?)
+  fullName.vb: NetFabric.Throw.NotSupportedException(String, System.Exception)
+  nameWithType: Throw.NotSupportedException(string?, Exception?)
+  nameWithType.vb: Throw.NotSupportedException(String, Exception)
+- uid: NetFabric.Throw.NotSupportedException*
+  name: NotSupportedException
+  href: api/NetFabric.Throw.html#NetFabric_Throw_NotSupportedException_
+  commentId: Overload:NetFabric.Throw.NotSupportedException
+  isSpec: "True"
+  fullName: NetFabric.Throw.NotSupportedException
+  nameWithType: Throw.NotSupportedException
+- uid: NetFabric.Throw.NotSupportedException``1(System.String,System.Exception)
+  name: NotSupportedException<T>(string?, Exception?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_NotSupportedException__1_System_String_System_Exception_
+  commentId: M:NetFabric.Throw.NotSupportedException``1(System.String,System.Exception)
+  name.vb: NotSupportedException(Of T)(String, Exception)
+  fullName: NetFabric.Throw.NotSupportedException<T>(string?, System.Exception?)
+  fullName.vb: NetFabric.Throw.NotSupportedException(Of T)(String, System.Exception)
+  nameWithType: Throw.NotSupportedException<T>(string?, Exception?)
+  nameWithType.vb: Throw.NotSupportedException(Of T)(String, Exception)
+- uid: NetFabric.Throw.ObjectDisposedException(System.String,System.String)
+  name: ObjectDisposedException(string, string?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ObjectDisposedException_System_String_System_String_
+  commentId: M:NetFabric.Throw.ObjectDisposedException(System.String,System.String)
+  name.vb: ObjectDisposedException(String, String)
+  fullName: NetFabric.Throw.ObjectDisposedException(string, string?)
+  fullName.vb: NetFabric.Throw.ObjectDisposedException(String, String)
+  nameWithType: Throw.ObjectDisposedException(string, string?)
+  nameWithType.vb: Throw.ObjectDisposedException(String, String)
+- uid: NetFabric.Throw.ObjectDisposedException*
+  name: ObjectDisposedException
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ObjectDisposedException_
+  commentId: Overload:NetFabric.Throw.ObjectDisposedException
+  isSpec: "True"
+  fullName: NetFabric.Throw.ObjectDisposedException
+  nameWithType: Throw.ObjectDisposedException
+- uid: NetFabric.Throw.ObjectDisposedException``1(System.String,System.String)
+  name: ObjectDisposedException<T>(string, string?)
+  href: api/NetFabric.Throw.html#NetFabric_Throw_ObjectDisposedException__1_System_String_System_String_
+  commentId: M:NetFabric.Throw.ObjectDisposedException``1(System.String,System.String)
+  name.vb: ObjectDisposedException(Of T)(String, String)
+  fullName: NetFabric.Throw.ObjectDisposedException<T>(string, string?)
+  fullName.vb: NetFabric.Throw.ObjectDisposedException(Of T)(String, String)
+  nameWithType: Throw.ObjectDisposedException<T>(string, string?)
+  nameWithType.vb: Throw.ObjectDisposedException(Of T)(String, String)
